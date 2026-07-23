@@ -1,7 +1,7 @@
 // server.js
 const express = require('express');
 const mongoose = require('mongoose');
-const awardsRouter = require('./routes/awards');
+const awardsRouter = require('./app/routes/awards');
 
 const app = express();
 
