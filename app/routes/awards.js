@@ -1,7 +1,7 @@
 // routes/awards.js
 const express = require('express');
-const Award = require('../models/Award');
-const UserAward = require('../models/UserAward');
+const Award = require('../app/models/Award');
+const UserAward = require('../app/models/UserAward');
 
 const router = express.Router();
 
